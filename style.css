@@ -1,0 +1,96 @@
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1.college-name {
+    font-size: 40px;
+    color: #5a189a;
+    text-shadow: 3px 3px 5px black;
+    margin-top: 20px;
+}
+
+.container {
+    width: 80%;
+    background-color: #e0b3ff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+input, select {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.present-btn {
+    background: green;
+    color: white;
+}
+
+.absent-btn {
+    background: red;
+    color: white;
+}
+
+.present-btn.marked,
+.absent-btn.marked {
+    background: darkgray !important;
+    cursor: not-allowed;
+}
+
+.confirm-btn {
+    background: blue;
+    color: white;
+}
+
+.end-btn {
+    background: black;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+th {
+    background-color: #5a189a;
+    color: white;
+}
+
+.section-header {
+    font-size: 24px;
+    color: #5a189a;
+    margin-top: 20px;
+}

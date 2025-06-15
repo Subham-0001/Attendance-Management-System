@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="college-name">Avalon College of Engineering
+
+    </h1>
+
+    <div class="container">
+        <h2>Attendance Management</h2>
+
+        <div class="input-section">
+            <label>Section:</label>
+            <input type="text" id="section" placeholder="Enter Section">
+
+            <label>Year:</label>
+            <select id="year">
+                <option value="1st">1st</option>
+                <option value="2nd">2nd</option>
+                <option value="3rd">3rd</option>
+                <option value="4th">4th</option>
+            </select>
+
+            <label>No. of Students:</label>
+            <input type="number" id="student-count" placeholder="Enter Count">
+
+            <button onclick="setupStudents()">Start Attendance</button>
+        </div>
+
+        <h3>Week <span id="week-counter">1</span></h3>
+
+        <div id="attendance-sections"></div>
+
+        <button class="confirm-btn" onclick="confirmWeek()">Confirm Week</button>
+        <button class="end-btn" onclick="endSemester()">End Semester</button>
+
+        <div id="debarred-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
